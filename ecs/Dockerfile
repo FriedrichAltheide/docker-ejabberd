@@ -29,7 +29,7 @@ RUN mkdir runtime \
     && cp -r /ejabberd/sql lib/ejabberd-*/priv
 
 # Runtime container
-FROM alpine:3.11
+FROM alpine:3.12
 ARG VERSION
 ARG VCS_REF
 ARG BUILD_DATE
